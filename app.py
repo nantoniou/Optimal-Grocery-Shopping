@@ -189,7 +189,7 @@ elif choose == "Optimal Shopper":
             st.markdown(f"#### The cost of your optimised shopping basket is *${cost}*!")
             st.divider()
             st.write("#### Your selected products:")
-            st.dataframe(df)#, hide_index=True)
+            st.dataframe(df, hide_index=True)
             st.text("")
 
             col15, col25, col35 = st.columns( [1, 3, 1])
