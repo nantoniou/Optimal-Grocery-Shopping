@@ -17,7 +17,7 @@ To tackle this challenge, we have collected a Dataset scraped from [Whole Food m
 Let $x_i$ be a binary variable, where $i = 1, \dots, 4925$, indicating the selection of the specific product.
 
 ### Objective Function
- 
+
 $$min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \cdot \text{weight}_i$$
 
 ### Macro-nutrient Constraints
