@@ -34,48 +34,48 @@ $$
 
 ### Preferences Constraints
 $$
-\sum_{\text{beans_indices_vec}} x_i \leq \text{max_number_of_beans}
+\sum_{\text{beans\_indices\_vec}} x_i \leq \text{max\_number\_of\_beans}
 $$
 $$
-\sum_{\text{milk_indices_vec}} x_i \leq \text{max_number_of_milk}
+\sum_{\text{milk\_indices\_vec}} x_i \leq \text{max\_number\_of\_milk}
 $$
 $$
-\sum_{\text{flour_indices_vec}} x_i \leq \text{max_number_of_flour}
+\sum_{\text{flour\_indices\_vec}} x_i \leq \text{max\_number\_of\_flour}
 $$
 $$
-\sum_{\text{pb_indices_vec}} x_i \leq \text{max_number_of_peanut}
+\sum_{\text{pb\_indices\_vec}} x_i \leq \text{max\_number\_of\_peanut}
 $$
 $$
-\sum_{\text{pasta_indices_vec}} x_i \leq \text{max_number_of_pasta}
+\sum_{\text{pasta\_indices\_vec}} x_i \leq \text{max\_number\_of\_pasta}
 $$
 $$
-\sum_{\text{oats_indices_vec}} x_i \leq \text{max_number_of_oats}
+\sum_{\text{oats\_indices\_vec}} x_i \leq \text{max\_number\_of\_oats}
 $$
 $$
-\sum_{\text{bread_indices_vec}} x_i \leq \text{max_number_of_bread}
+\sum_{\text{bread\_indices\_vec}} x_i \leq \text{max\_number\_of\_bread}
 $$
 
 ### Micro-nutrient Constraints
 $$
-\sum_{i=1}^{n} x_i \cdot \text{cholesterol}_i \leq \text{cholesterol_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{cholesterol}_i \leq \text{cholesterol\_constraint}
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{total_fat_amount}_i \leq \text{fat_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{total\_fat\_amount}_i \leq \text{fat\_constraint}
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{saturated_fat}_i \leq \text{sat_fat_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{saturated\_fat}_i \leq \text{sat\_fat\_constraint}
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{fiber}_i \geq \text{fiber_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{fiber}_i \geq \text{fiber\_constraint}
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{sodium}_i \leq \text{sodium_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{sodium}_i \leq \text{sodium\_constraint}
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{potassium}_i \geq \text{potassium_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{potassium}_i \geq \text{potassium\_constraint}
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{iron}_i \geq \text{iron_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{iron}_i \geq \text{iron\_constraint}
 $$
 
 
