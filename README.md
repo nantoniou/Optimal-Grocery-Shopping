@@ -24,13 +24,13 @@ $$
 
 ### Macro-nutrient Constraints
 $$
-\text{calories_intake} \cdot 0.9 \leq \sum_{i=1}^{n} x_i \cdot \text{calories}_i \leq \text{calories_intake} \cdot 1.2
+\text{calories\_intake} \cdot 0.9 \leq \sum_{i=1}^{n} x_i \cdot \text{calories}_i \leq \text{calories\_intake} \cdot 1.2
 $$
 $$
-\text{protein_intake} \leq \sum_{i=1}^{n} x_i \cdot \text{protein}_i \leq \text{protein_intake} \cdot 1.3
+\text{protein\_intake} \leq \sum_{i=1}^{n} x_i \cdot \text{protein}_i \leq \text{protein\_intake} \cdot 1.3
 $$
 $$
-\sum_{i=1}^{n} x_i \cdot \text{total_fat_amount}_i \leq \text{fat_constraint}
+\sum_{i=1}^{n} x_i \cdot \text{total\_fat\_amount}_i \leq \text{fat\_constraint}
 $$
 
 ### Preferences Constraints
