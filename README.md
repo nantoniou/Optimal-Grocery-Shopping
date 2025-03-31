@@ -24,7 +24,7 @@ min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \c
 ### Macro-nutrient Constraints
 
 ```math
-\text{calories_intake} \cdot 0.9 \leq \sum_{i=1}^{n} x_i \cdot \text{calories}_i \leq \text{calories_intake} \cdot 1.2
+\text{calories\_intake} \cdot 0.9 \leq \sum_{i=1}^{n} x_i \cdot \text{calories}_i \leq \text{calories\_intake} \cdot 1.2
 ```
 ```math
 \text{protein_intake} \leq \sum_{i=1}^{n} x_i \cdot \text{protein}_i \leq \text{protein_intake} \cdot 1.3
