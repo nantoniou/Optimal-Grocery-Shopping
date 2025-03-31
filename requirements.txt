@@ -1,0 +1,8 @@
+gurobipy==10.0.3
+julia==0.6.1
+matplotlib==3.7.1
+numpy==1.24.3
+pandas==1.5.3
+streamlit==1.24.1
+streamlit==1.29.0
+streamlit_option_menu==0.3.6
