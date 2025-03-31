@@ -17,7 +17,7 @@ To tackle this challenge, we have collected a Dataset scraped from [Whole Food m
 Let $x_i$ be a binary variable, where $i = 1, \dots, 4925$, indicating the selection of the specific product.
 
 ### Objective Function
-<!--
+
 ```math
 min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \cdot \text{weight}_i
 ```
@@ -68,7 +68,7 @@ min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \c
 \sum_{i=1}^{n} x_i \cdot \text{iron}_i \geq \text{iron_constraint}
 ```
 
--->
+
 ## **⚡ Features**  
 ✔️ Automatically finds the cheapest and lightest product selection, using MILP optimisation<br>
 ✔️ Handles different nutritional requirements and food preferences<br>
