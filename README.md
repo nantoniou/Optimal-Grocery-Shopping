@@ -18,11 +18,10 @@ Let $x_i$ be a binary variable, where $i = 1, \dots, 4925$, indicating the selec
 
 ### Objective Function
  
-$$
-min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \cdot \text{weight}_i
-$$
+$$min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \cdot \text{weight}_i$$
 
 ### Macro-nutrient Constraints
+
 $$
 \text{calories\_intake} \cdot 0.9 \leq \sum_{i=1}^{n} x_i \cdot \text{calories}_i \leq \text{calories\_intake} \cdot 1.2
 $$
