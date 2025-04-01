@@ -28,7 +28,8 @@ min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \c
 ```
 ```math
 \text{protein\_intake} \leq \sum_{i=1}^{n} x_i \cdot \text{protein}_i \leq \text{protein\_intake} \cdot 1.3
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{total\_fat\_amount}_i \leq \text{fat\_constraint}
 ```
 
@@ -36,17 +37,23 @@ min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \c
 
 ```math
 \sum_{\text{beans\_indices\_vec}} x_i \leq \text{max\_number\_of\_beans}
-
-\sum_{\text{milk\_indices\_vec}} x_i \leq \text{max_number\_of\_milk}
-
+```
+```math
+\sum_{\text{milk\_indices\_vec}} x_i \leq \text{max\_number\_of\_milk}
+```
+```math
 \sum_{\text{flour\_indices\_vec}} x_i \leq \text{max\_number\_of\_flour}
-
-\sum_{\text{pb\_indices\_vec}} x_i \leq \text{max_number\_of\_peanut}
-
+```
+```math
+\sum_{\text{pb\_indices\_vec}} x_i \leq \text{max\_number\_of\_peanut}
+```
+```math
 \sum_{\text{pasta\_indices\_vec}} x_i \leq \text{max\_number\_of\_pasta}
-
+```
+```math
 \sum_{\text{oats\_indices\_vec}} x_i \leq \text{max\_number\_of\_oats}
-
+```
+```math
 \sum_{\text{bread\_indices\_vec}} x_i \leq \text{max\_number\_of\_bread}
 ```
 
@@ -54,17 +61,23 @@ min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \c
 
 ```math
 \sum_{i=1}^{n} x_i \cdot \text{cholesterol}_i \leq \text{cholesterol\_constraint}
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{total\_fat\_amount}_i \leq \text{fat\_constraint}
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{saturated\_fat}_i \leq \text{sat\_fat\_constraint}
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{fiber}_i \geq \text{fiber\_constraint}
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{sodium}_i \leq \text{sodium\_constraint}
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{potassium}_i \geq \text{potassium\_constraint}
-
+```
+```math
 \sum_{i=1}^{n} x_i \cdot \text{iron}_i \geq \text{iron\_constraint}
 ```
 
