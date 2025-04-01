@@ -3,7 +3,7 @@
 _An intelligent shopping optimization tool, allowing you to lower your costs (and the weight of your basket), automate your product selection, while adhering to your nutritional needs._  
 
 ## **Overview**
-This project helps users **optimize their grocery shopping** by finding the most cost-effective way to buy items on WholeFoods, ensuring a light-weight basket for easy transportation, while adhering to nutrational constraints. Those constraints include calories, macro-nutrients (e.g. protein), and micro-nutrients (e.g. iron). It is carried out with Mixed-Integer Linear Program (MILP) optimisation modeling, through a module that is called by the Streamlit app.
+This project helps users **optimize their grocery shopping** by finding the most cost-effective way to buy items on WholeFoods, ensuring a light-weight basket for easy transportation, while adhering to nutrational constraints. Those constraints include calories, macro-nutrients (e.g. protein), and micro-nutrients (e.g. iron). It is carried out with binary integer linear programming optimisation modeling, through a module that is called by the Streamlit app.
 
 The module contains two working versions of the optimisation module, a Python and a Julia one. Streamlit uses the latter, since there are no significant runtime differences, but Julia and its wrapper are kept for future developments.
 
