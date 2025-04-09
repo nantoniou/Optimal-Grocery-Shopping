@@ -83,7 +83,7 @@ min\sum_{i=1}^{n} x_i \cdot \text{price}_i + \lambda \cdot \sum_{i=1}^{n} x_i \c
 
 
 ## **⚡ Features**  
-✔️ Automatically finds the cheapest and lightest product selection, using MILP optimisation<br>
+✔️ Automatically finds the cheapest and lightest product selection, using BILP optimisation<br>
 ✔️ Handles different nutritional requirements and food preferences<br>
 ✔️ Allows the automatic selection of the nutritional requirements<br>
 ✔️ Easy-to-use interface with Streamlit
